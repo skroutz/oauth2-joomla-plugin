@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="plugin" version="1.5" group="authentication">
+	<!-- Name of the Plugin -->
+	<name>Authentication - SkroutzEasy</name>
+
+	<!-- Name of the Author -->
+	<author>Skroutz.gr</author>
+
+	<!-- Author's email address -->
+	<authorEmail>dev@skroutz.gr</authorEmail>
+
+	<!-- Author's website -->
+	<authorUrl>http://www.skroutz.gr</authorUrl>
+
+	<!-- Description of what the component does -->
+	<description>Handles Skroutz account user authentication</description>
+
+	<!-- Plugin version number -->
+	<version>1.0.0</version>
+
+	<!-- Version Date of the Plugin -->
+	<!-- Original creation date. Recommended: YYYY-MM-DD -->
+	<creationDate>April 2012</creationDate>
+
+	<!-- Copyright information -->
+	<copyright>Copyright (c) 2012 Skroutz.gr. All rights reserved.</copyright>
+
+	<!-- License information -->
+	<license>MIT - http://www.opensource.org/licenses/MIT</license>
+
+	<files>
+		<filename plugin="skroutzeasy">skroutzeasy.php</filename>
+	</files>
+
+	<params />
+</install>

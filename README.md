@@ -1,11 +1,11 @@
-Joomla v.1.5+ Skroutz Easy plugin
-====================================
+Joomla v.1.5, v.1.6 and v.2.5 Skroutz Easy plugin
+=================================================
 
 ## English
 
 ### Requirements
 
- - [Joomla! v.1.5](http://www.joomla.org)
+ - [Joomla! v.1.5, v.1.6 or v.2.5](http://www.joomla.org)
  - [VirtueMart 2.0.6](http://virtuemart.net)
 
 ### Installation instructions
@@ -28,7 +28,7 @@ Joomla v.1.5+ Skroutz Easy plugin
 
 ### Απαιτήσεις
 
- - [Joomla! v.1.5](http://www.joomla.org)
+ - [Joomla! v.1.5, v.1.6 or v.2.5](http://www.joomla.org)
  - [VirtueMart 2.0.6](http://virtuemart.net)
 
 ### Οδηγίες εγκατάστασης

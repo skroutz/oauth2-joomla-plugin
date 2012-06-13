@@ -1,6 +1,6 @@
 <?php
 /**
- * @package    SkroutzEasy plugin for Joomla 1.5.x and 1.6.x
+ * @package    SkroutzEasy plugin for Joomla 1.5.x, 1.6.x and 2.5.x
  * @copyright  Copyright (c) 2012 Skroutz S.A. - http://www.skroutz.gr
  * @link       http://developers.skroutz.gr/oauth2
  * @license    MIT
@@ -39,7 +39,7 @@ class plgAuthenticationSkroutzEasy extends JPlugin
 	 * @param   object  $response       Authentication response object
 	 * @return  boolean
 	 */
-	function onAuthenticate( $credentials, $options, &$response )
+	function onUserAuthenticate( $credentials, $options, &$response )
 	{
 		// Get a database object
 		$db =& JFactory::getDBO();
@@ -61,5 +61,19 @@ class plgAuthenticationSkroutzEasy extends JPlugin
 			$response->status = JAUTHENTICATE_STATUS_FAILURE;
 			$response->error_message = 'User does not exist';
 		}
+	}
+
+	/**
+	 * For Joomla 1.5 compatibility (renamed event function)
+	 *
+	 * @access  public
+	 * @param   array   $credentials    Array holding the user credentials
+	 * @param   array   $options        Array of extra options
+	 * @param   object  $response       Authentication response object
+	 * @return  boolean
+	 */
+	function onAuthenticate( $credentials, $options, &$response )
+	{
+		return $this->onUserAuthenticate($credentials, $options, $response);
 	}
 }

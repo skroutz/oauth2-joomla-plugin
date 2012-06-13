@@ -51,7 +51,7 @@ class plgAuthenticationSkroutzEasy extends JPlugin
 		$db->setQuery( $query );
 		$result = $db->loadObject();
                 
-		if($result && $options['oauth_login']) {
+		if($result && isset($options['oauth_login']) && $options['oauth_login']) {
 			$user = JUser::getInstance($result->id); // Bring this in line with the rest of the system
 			$response->email = $user->email;
 			$response->fullname = $user->name;

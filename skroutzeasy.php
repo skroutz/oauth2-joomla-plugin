@@ -44,7 +44,7 @@ class plgAuthenticationSkroutzEasy extends JPlugin
 		// Get a database object
 		$db =& JFactory::getDBO();
 
-		$query = 'SELECT `id`, `password`, `gid`'
+		$query = 'SELECT `id`, `password`'
 			. ' FROM `#__users`'
 			. ' WHERE username=' . $db->Quote( $credentials['username'] )
 			;

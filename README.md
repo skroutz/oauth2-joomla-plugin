@@ -79,6 +79,6 @@ while protecting your site from potential (undiscovered) security vulnerabilitie
 
 ![Enabling OAuth2 Joomla Plugin][oauth2-joomla-plugin-enable]
 
-[oauth2-joomla-plugin-install]: /skroutz/oauth2-joomla-plugin/raw/master/doc/oauth2-joomla-plugin-install.png "Installing OAuth2 Joomla Plugin"
-[oauth2-joomla-plugin-enable]: /skroutz/oauth2-joomla-plugin/raw/master/doc/oauth2-joomla-plugin-enable.png "Enabling OAuth2 Joomla Plugin"
+[oauth2-joomla-plugin-install]: https://raw.github.com/skroutz/oauth2-joomla-plugin/master/doc/oauth2-joomla-plugin-install.png "Installing OAuth2 Joomla Plugin"
+[oauth2-joomla-plugin-enable]: https://raw.github.com/skroutz/oauth2-joomla-plugin/master/doc/oauth2-joomla-plugin-enable.png "Enabling OAuth2 Joomla Plugin"
 [releases]: https://github.com/skroutz/oauth2-joomla-plugin/releases

@@ -25,15 +25,16 @@ while protecting your site from potential (undiscovered) security vulnerabilitie
 
 ### Installation instructions for VirtueMart 2
 
-1. Install Joomla! and VirtueMart
-2. Login to the 'Administration' and install the 'Plugin'
+1. Download the latest version of the plugin from [Releases][releases]
+2. Install Joomla! and VirtueMart
+3. Login to the 'Administration' and install the 'Plugin'
     - Select 'Install / Uninstall' from the 'Extensions' menu
     - Click 'Choose file' and select the extension (`plg_skroutzeasy.zip`) from your HDD
     - Upload the file using 'Upload File & Install'
 
 ![Installing OAuth2 Joomla Plugin][oauth2-joomla-plugin-install]
 
-3. Enable the 'Plugin'
+4. Enable the 'Plugin'
     - Select 'Plugin Manager' from the 'Extensions' menu
     - Select the 'Authentication - SkroutzEasy' plugin and press 'Enable'
 
@@ -63,15 +64,16 @@ while protecting your site from potential (undiscovered) security vulnerabilitie
 
 ### Οδηγίες εγκατάστασης για VirtueMart 2
 
-1. Εγκαταστήστε το Joomla! και το VirtueMart
-2. Συνδεθείτε στο 'Administration' περιβάλλον και εγκαταστήστε το 'Plugin'
+1. Κατεβάστε την τελευταία έκδοση του plugin από τα [Releases][releases]
+2. Εγκαταστήστε το Joomla! και το VirtueMart
+3. Συνδεθείτε στο 'Administration' περιβάλλον και εγκαταστήστε το 'Plugin'
     - Επιλέξτε 'Install / Uninstall' από το μενού 'Extensions'
     - Επιλέξτε 'Choose file' και μετά διαλέξτε το extension (`plg_skroutzeasy.zip`) από τον σκληρό δίσκο
     - Εγκαταστήστε το αρχείο επιλέγοντας 'Upload File & Install'
 
 ![Installing OAuth2 Joomla Plugin][oauth2-joomla-plugin-install]
 
-3. Ενεργοποιήστε το 'Plugin'
+4. Ενεργοποιήστε το 'Plugin'
     - Επιλέξτε τον 'Plugin Manager' από το μενού 'Extensions'
     - Διαλέξτε το plugin 'Authentication - SkroutzEasy' και πατήστε το 'Enable'
 
@@ -79,3 +81,4 @@ while protecting your site from potential (undiscovered) security vulnerabilitie
 
 [oauth2-joomla-plugin-install]: /skroutz/oauth2-joomla-plugin/raw/master/doc/oauth2-joomla-plugin-install.png "Installing OAuth2 Joomla Plugin"
 [oauth2-joomla-plugin-enable]: /skroutz/oauth2-joomla-plugin/raw/master/doc/oauth2-joomla-plugin-enable.png "Enabling OAuth2 Joomla Plugin"
+[releases]: https://github.com/skroutz/oauth2-joomla-plugin/releases
